@@ -29,19 +29,19 @@ npm i nodemon
 
 
 
-express 로 ejs 세팅 끝
+* express 로 ejs 세팅 끝
 
-package.json dependancies 복사 -> npm i ?
+* package.json dependancies 복사 -> npm i ?
 
 
 
-https://swagger.io/tools/swagger-ui/
+* https://swagger.io/tools/swagger-ui/
 swagger
 
-req.query req.params 차이
+* req.query req.params 차이
 
 
-*post url 작성
+* post url 작성
 
-*get 과 post 의 차이
+* get 과 post 의 차이
 
