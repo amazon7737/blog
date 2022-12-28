@@ -1,4 +1,6 @@
-### express - generator
+```
+express - generator
+```
 
 ### npm init
 -> npm 으로 package.json 에 express 모듈 추가
