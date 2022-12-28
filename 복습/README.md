@@ -2,17 +2,29 @@
 express - generator
 ```
 
-### npm init
+```
+npm init
+```
+
 -> npm 으로 package.json 에 express 모듈 추가
 
-### npm install express
+```
+npm install express
+```
 
-### express —view=ejs
+```
+express —view=ejs
+```
 
-### npm i
+```
+npm i
+```
 
 nodemon 변경 해주고 ( json)
-### npm i nodemon
+
+```
+npm i nodemon
+```
 
 
 
