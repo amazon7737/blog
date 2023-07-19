@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <style>
+    h1 {
+      font-weight: normal;
+      font-family: "Nanum Myeongjo", sans-serif;
+    }
+  </style>
+  <body>
+    <h1><%= title %></h1>
+
+    <% include ./navbar.ejs %> <% include ./postdel.ejs %>
+  </body>
+</html>

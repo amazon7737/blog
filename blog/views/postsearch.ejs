@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        font-weight: normal;
+        font-family: "Nanum Myeongjo", sans-serif;
+      }
+      .login > a {
+        text-decoration-line: none;
+        color: black;
+      }
+      form {
+        text-decoration-line: none;
+        color: black;
+      }
+      body {
+        padding: 50px;
+        font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <% include ./navbar.ejs %>
+
+    <hr />
+
+    <!--  -->
+
+    <% for(var i = 0 ; i< post.length; i++) { %>
+    <h3><%= post[i].ptitle %></h3>
+    <p><%= post[i].pvalue %></p>
+    <% } %>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include ./head.ejs %>
+
+  <body>
+    <form action="/post/update" method="post">
+      <div>
+        <h1>대신 입력할 내용</h1>
+        <span> 타이틀</span>
+        <input
+          name="posttitle"
+          type="text"
+          placeholder="제목을 입력하세요"
+          value="<%- post[0].ptitle %>"
+        />
+      </div>
+      <!-- post[i].pid -->
+      <div>
+        <span>내용</span>
+        <input
+          name="postvalue"
+          type = "text"
+          placeholder="내용을 입력하세요"
+          value="<%- post[0].pvalue %>"
+        >
+        </input>
+      </div>
+      <input type="hidden" name="pid" value="<%- pid %>" />
+      <button type="submit">수정</button>
+    </form>
+  </body>
+</html>

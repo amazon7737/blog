@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <style>
+    body {
+      background-color: #fff;
+    }
+    a {
+      text-decoration-line: none;
+      color: black;
+    }
+  </style>
+  <% include ./head.ejs %>
+
+  <body>
+    <hr />
+    <% for(var i = 0 ; i< post.length; i++) { %>
+    <h3><%= post[i].ptitle %></h3>
+    <p><%= post[i].pvalue %></p>
+
+    <a href="post/del/<%= post[i].pid %>">
+      <button>글 삭제</button>
+    </a>
+
+    <form action="/post/updatepage/<%= post[i].pid %>" method="post">
+      <input type="hidden" name="pid" value="<%=post[i].pid %>" />
+      <input type="submit" value="수정하기" />
+    </form>
+
+    <!-- get 이랑 post 의 차이가 무엇일까? -->
+    <!--  -->
+    <!-- <a href="post/update">
+      <button>수정하기</button>
+    </a> -->
+    <br /><br />
+
+    <% } %>
+  </body>
+</html>
