@@ -1,7 +1,12 @@
 # bdad_blog
 
 ```
-express + node js + ejs 를 이용한 CRUD 게시판 제작 수업입니다.
+express 프레임워크
+nodejs 런타임 엔진
+ejs View
+를 이용한 CRUD 게시판 제작 토이 프로젝트 입니다.
+
+
 
 db : mysql
 schema name : blog2
