@@ -1,4 +1,4 @@
-# node_board
+# nodeBoard
 
 > express framework + nodejs runtime + ejs View
 > CRUD 게시판 제작 토이 프로젝트
